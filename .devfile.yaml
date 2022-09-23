@@ -30,3 +30,8 @@ commands:
       component: go-cli
       commandLine: "go main.go"
       workingDir: $PROJECT_SOURCE
+  - id: test
+    exec:
+      component: go-cli
+      commandLine: "go test"
+      workingDir: $PROJECT_SOURCE
