@@ -1,4 +1,4 @@
-[![Contribute](https://img.shields.io/static/v1?label=code%20with&message=che&logo=eclipseche&color=FDB940&labelColor=525C86)](https://che-eclipse-che.apps.ci-ln-q36kg7k-72292.origin-ci-int-gce.dev.rhcloud.com/#https://github.com/l0rd/go-hello-world)
+[![Contribute](https://img.shields.io/static/v1?label=code%20with&message=che%20(dogfooding)&logo=eclipseche&color=FDB940&labelColor=525C86)](https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com/#https://github.com/l0rd/go-hello-world)
 
 # An hello world written in go
 
