@@ -16,7 +16,7 @@ paths:
           description: The operation was successful.
           schema:
             $ref: '#/definitions/getBalanceResponse'
-basePath: /mortgage
+basePath: mortgage
 definitions:
   getBalanceResponse:
     type: object
@@ -24,7 +24,7 @@ definitions:
       - timestamp
       - balance
       - accountNumber
-      - handledBy
+      handledBy
     properties:
       timestamp:
         type: string
