@@ -1,0 +1,41 @@
+swagger: '2.0'
+info:
+  title: mortgageBalance
+  version: '1.0'
+  description: This is a mortgage api use to retrieve information about mortgage balance for bank users.
+paths:
+  /balance:
+    get:
+      summary: Retrieves mortgage balance
+      description: Retrieve mortgage balance for particular bank user.
+      operationId: getBalance
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: The operation was successful.
+          schema:
+            $ref: '#/definitions/getBalanceResponse'
+basePath: /mortgage
+definitions:
+  getBalanceResponse:
+    type: object
+    required:
+      - timestamp
+      - balance
+      - accountNumber
+      - handledBy
+    properties:
+      timestamp:
+        type: string
+      balance:
+        type: number
+        description: mortgage balance for bank user
+      accountNumber:
+        type: number
+        description: account number of bank user
+      handledBy:
+        type: string
+host: mortgages-v-1-0-http-ace.openshift.cloud
+schemes:
+  - http
