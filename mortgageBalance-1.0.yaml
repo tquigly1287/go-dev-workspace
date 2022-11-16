@@ -24,7 +24,7 @@ definitions:
       - timestamp
       - balance
       - accountNumber
-      handledBy
+      - handledBy
     properties:
       timestamp:
         type: string
